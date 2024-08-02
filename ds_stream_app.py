@@ -12,7 +12,7 @@ st.title('Predict Quality of Fruit')
 
 # Input fields
 size = st.number_input('Size (cm)', min_value=0.0, step=0.1)
-weight = st.number_input('Weight (g)', min_value=100.0, step=0.1)
+weight = st.number_input('Weight (g)', min_value=0.0, step=0.1)
 brix = st.number_input('Brix (Sweetness)', min_value=0.0, step=0.1)
 ph = st.number_input('pH (Acidity)', min_value=0.0, step=0.1)
 softness = st.number_input('Softness (1-5)', min_value=1.0, max_value=5.0, step=0.1)
